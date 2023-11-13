@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./main.css";
+import "./Navbar.css";
 
 function Navbar() {
   const navRef = useRef();
