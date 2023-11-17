@@ -32,6 +32,7 @@ module.exports = {
       LunchBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612080267384-4EXG5X6S59DHJ0S0PJQO/cafecitoDecemberBowls-11.jpg?format=2500w')",
       BreakfastBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612081082317-ACG6W1NTTVR755NSCVLW/breakfast-24-2.jpg?format=2500w')",
       BakedBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612081762293-RVM72ZT8IYK6YVQRUVWZ/bake+goods+and+dessert-25.jpg?format=2500w')",
+      findUsBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612074367458-YKRFYBHPTEMY3EH7A66H/space-076.jpg?format=2500w')"
     }
   },
   plugins: [],

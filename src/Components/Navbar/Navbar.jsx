@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const navRef = useRef();
@@ -17,24 +18,24 @@ function Navbar() {
         alt=""
       />
       <nav ref={navRef}>
-        <a href="/#" className="text-black -0 mx-4 cursor-pointer ">
+        <Link to="/" className="text-black -0 mx-4 cursor-pointer ">
           Home
-        </a>
-        <a href="/#" className="text-black -0 mx-4  cursor-pointer">
+        </Link>
+        <Link to="/menu" className="text-black -0 mx-4  cursor-pointer">
           Menu
-        </a>
-        <a href="/#" className="text-black -0 mx-4 cursor-pointer ">
+        </Link>
+        <Link to="/find" className="text-black -0 mx-4 cursor-pointer ">
           Find Us
-        </a>
-        <a href="/#" className="text-black m-0 mx-4 cursor-pointer">
+        </Link>
+        {/* <a to="/#" className="text-black m-0 mx-4 cursor-pointer">
           Our Story
         </a>
-        <a href="/#" className="text-black m-0 mx-4 cursor-pointer ">
+        <a to="/#" className="text-black m-0 mx-4 cursor-pointer ">
           Special Events
         </a>
-        <a href="/#" className="text-black m-0 mx-4  cursor-pointer">
+        <a to="/#" className="text-black m-0 mx-4  cursor-pointer">
           Community
-        </a>
+        </a> */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
