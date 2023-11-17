@@ -29,13 +29,8 @@ const FindUs = () => {
           </Link>
         </section>
       </section>
-      <hr className=" border-lightGray w-[100%] h-[12px]" />
     </>
   );
 };
 
 export default FindUs;
-/**
- * sm:w-[400px] md:w-[x] lg:w-[700px] xl:w-[800px] 2xl:w-[850px]
-lg:w-[700px] xl:w-[800px] 2xl:w-[850px]
- */

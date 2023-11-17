@@ -29,6 +29,9 @@ module.exports = {
       eventImageTwo: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631893398085-C49ROZMY79DLA0BVJSXW/wine+and+chile+icon.png?format=500w')",
       eventImageThree: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631895743511-L3E6HYT3ZYG3YJYWGG3X/21efc5464380de401068d19530dd8a170a5c8559.jpeg?format=500w')",
       eventImageFour: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631896345270-VZLBGTB947931J92QLZP/IMG_442D5AA465F1-1.jpeg?format=500w')",
+      LunchBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612080267384-4EXG5X6S59DHJ0S0PJQO/cafecitoDecemberBowls-11.jpg?format=2500w')",
+      BreakfastBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612081082317-ACG6W1NTTVR755NSCVLW/breakfast-24-2.jpg?format=2500w')",
+      BakedBg: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1612081762293-RVM72ZT8IYK6YVQRUVWZ/bake+goods+and+dessert-25.jpg?format=2500w')",
     }
   },
   plugins: [],

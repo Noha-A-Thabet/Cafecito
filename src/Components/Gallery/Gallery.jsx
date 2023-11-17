@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div class="">
+    <div>
       <section class=" h-[60vh] w-[96vw] mt-[50px] mx-[2px]">
         {/*parent grid*/}
 
