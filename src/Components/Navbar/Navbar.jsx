@@ -11,12 +11,15 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-white flex items-center justify-between h-[80px] p-[0 2rem] ">
-      <img
-        src="/assets/logo-cafecito-red-transparent.png"
-        className="w-[200px] mx-[30px]"
-        alt=""
-      />
+    <header className="bg-white flex items-center justify-between w-[97vw] h-[80px] p-[0 2rem] ">
+      <Link to="/">
+        <img
+          src="/assets/logo-cafecito-red-transparent.png"
+          className="w-[200px] mx-[30px]"
+          alt=""
+        />
+      </Link>
+
       <nav ref={navRef}>
         <Link to="/" className="text-black -0 mx-4 cursor-pointer ">
           Home
@@ -27,15 +30,10 @@ function Navbar() {
         <Link to="/find" className="text-black -0 mx-4 cursor-pointer ">
           Find Us
         </Link>
-        {/* <a to="/#" className="text-black m-0 mx-4 cursor-pointer">
-          Our Story
-        </a>
-        <a to="/#" className="text-black m-0 mx-4 cursor-pointer ">
-          Special Events
-        </a>
-        <a to="/#" className="text-black m-0 mx-4  cursor-pointer">
-          Community
-        </a> */}
+        <Link to="/events" className="text-black -0 mx-4 cursor-pointer ">
+          Events
+        </Link>
+
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

@@ -4,6 +4,7 @@ import Menu from "./Components/Menu/Menu";
 import OrderOnline from "./Components/OrderOnline/OrderOnline";
 import Gallery from "./Components/Gallery/Gallery";
 import FindUsPage from "./Components/FindUs/findUsPage";
+import SpecialEvents from "./Components/specialEvents/SpecialEvents";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/order" element={<OrderOnline />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/find" element={<FindUsPage />} />
+          <Route path="/events" element={<SpecialEvents />} />
         </Routes>
       </BrowserRouter>
     </>
