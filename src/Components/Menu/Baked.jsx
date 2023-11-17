@@ -3,8 +3,8 @@ import React from "react";
 const Baked = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="bg-BakedBg w-[90vw] h-[65vh] bg-cover bg-center"></div>
-      <h1 className="pt-[50px] font-bold text-3xl tracking-[.98rem] sm:text-2xl md:text-3xl xl:text-4xl">
+      <div className="bg-BakedBg w-[90vw] h-[65vh] bg-cover bg-center sm:bg-contain sm:bg-no-repeat lg:w-[90vw] lg:bg-cover lg:h-[55vh]"></div>
+      <h1 className="pt-[50px] font-bold text-3xl tracking-[.98rem] sm:text-lg md:text-xl xl:text-4xl sm:pt-[1px] md:pt-[10px] lg:pt-[30px]">
         BAKED GOODS & DESSERTS
       </h1>
       <h3 className="tracking-[.3em] text-[1.8em] mt-3 sm:text-[1.3em] md:text-[1.4em] lg:text-[1.5em] xl:text-[1.6em] 2xl:text-[1.7em]">
@@ -16,7 +16,7 @@ const Baked = () => {
         Baked Goods & Desserts
       </h3>
 
-      <ul className="flex flex-col items-center justify-center  w-[45%] text-center my-[20px] pb">
+      <ul className="flex flex-col items-center justify-center  w-[45%] text-center my-[20px] sm:w-[60%]">
         <li className="py-[20px]">
           <h3 className="text-xl font-bold ">MEDIALUNA</h3>
           <p className="text-gray leading-7 tracking-wider">Croissant.</p>

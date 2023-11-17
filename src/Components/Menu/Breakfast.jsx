@@ -3,7 +3,7 @@ import React from "react";
 const Breakfast = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="bg-BreakfastBg w-[90vw] h-[60vh] bg-cover bg-center"></div>
+      <div className="bg-BreakfastBg w-[90vw] h-[60vh] bg-cover bg-center sm:w-[92vw] sm:bg-contain sm:bg-no-repeat lg:w-[90vw] lg:bg-cover"></div>
       <h1 className="pt-[50px] font-bold text-3xl tracking-[.98rem] sm:text-2xl md:text-3xl xl:text-4xl">
         Breakfast
       </h1>
@@ -19,7 +19,7 @@ const Breakfast = () => {
         Breakfast
       </h3>
 
-      <ul className="flex flex-col items-center justify-center  w-[45%] text-center my-[20px] pb">
+      <ul className="flex flex-col items-center justify-center  w-[45%] text-center my-[20px] sm:w-[60%]">
         <li className="py-[20px]">
           <h3 className="text-xl font-bold ">FRUIT SALAD VG</h3>
           <p className="text-gray leading-7 tracking-wider">
