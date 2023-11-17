@@ -2,8 +2,8 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div>
-      <section class=" h-[60vh] w-[96vw] mt-[50px] ">
+    <div class="">
+      <section class=" h-[60vh] w-[96vw] mt-[50px] mx-[2px]">
         {/*parent grid*/}
 
         <div className="grid grid-cols-2 gap-[23rem] sm:gap-[10rem] md:gap-[17rem] lg:gap-[18rem] xl:gap-[19rem]  2xl:gap-[22rem] ">
@@ -19,7 +19,7 @@ const Gallery = () => {
         </div>
       </section>
       <section
-        class=" h-[60vh] grid grid-cols-2 w-[96vw] gap-[1.5rem] mt-[22px]  sm:gap-[.99rem] md:gap-[4rem] md:mt-[20px] md:w-[93vw] sm:mt-[18px]
+        class="mx-[2px] h-[60vh] grid grid-cols-2 w-[96vw] gap-[1.5rem] mt-[22px]  sm:gap-[.99rem] md:gap-[4rem] md:mt-[20px] md:w-[93vw] sm:mt-[18px]
        sm:w-[97vw] lg:mt-[20px] lg:w-[96vw]  lg:gap-[1rem] xl:gap-[1.5rem] 2xl:gap-[1.6rem]"
       >
         {/* four */}

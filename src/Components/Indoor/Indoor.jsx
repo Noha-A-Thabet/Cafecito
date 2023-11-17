@@ -28,7 +28,7 @@ const Indoor = () => {
         INDOOR & PATIO DINING
       </h1>
 
-      <h4 class="tracking-[.4em] text-[1.5em]  mt-[15px]  font-[300] sm:text-[1.3em] md:text[1.5em] lg:text[1.8em] xl:text[1.9em] 2xl:text-[2em]">
+      <h4 class="tracking-[.4em] text-[1.5em]  mt-[15px]  font-[300] sm:text-[1.3em] md:text-[1.5em] lg:text-[1.6em] xl:text-[1.7em] 2xl:text-[1.8em]">
         Take-Out & Delivery
       </h4>
       <h5 class="tracking-[.3em] text-[1.8em] mt-3 sm:text-[1.3em] md:text-[1.4em] lg:text-[1.5em] xl:text-[1.6em] 2xl:text-[1.7em]">

@@ -14,6 +14,7 @@ module.exports = {
     },
     backgroundColor: {
       lightgray: 'rgba(0, 0, 0, 0.42)', // Use your preferred light gray color
+      gray: "#f6f4f4",
     },
     fontFamily: {
       roboto: ['Roboto Slab', 'serif']
@@ -24,7 +25,10 @@ module.exports = {
       fixedImageThree: "url('https://images.squarespace-cdn.com/content/v1/54334f1be4b07621dce3db16/1543527373123-QEGMHTBLVJJY29L6JAIO/_MG_2483.jpg?format=1500w')",
       fixedImageFour: "url('https://images.squarespace-cdn.com/content/v1/54334f1be4b07621dce3db16/1543527352169-XKQWM45RTET5M87I3EZZ/_MG_2779.jpg?format=1500w')",
       fixedImageFive: "url('https://images.squarespace-cdn.com/content/v1/54334f1be4b07621dce3db16/1536075816923-5F3LTPLZZBGAE0P73GSF/_MG_2683-2.jpg?format=1500w')",
-
+      eventImageOne: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1621274773948-UAVQFGJTG7DT7K3E6HIQ/cafecitoApril2021-13.jpg?format=500w')",
+      eventImageTwo: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631893398085-C49ROZMY79DLA0BVJSXW/wine+and+chile+icon.png?format=500w')",
+      eventImageThree: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631895743511-L3E6HYT3ZYG3YJYWGG3X/21efc5464380de401068d19530dd8a170a5c8559.jpeg?format=500w')",
+      eventImageFour: "url('https://images.squarespace-cdn.com/content/v1/5d5c35d09c5b31000112bab9/1631896345270-VZLBGTB947931J92QLZP/IMG_442D5AA465F1-1.jpeg?format=500w')",
     }
   },
   plugins: [],
