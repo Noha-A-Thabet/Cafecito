@@ -5,6 +5,7 @@ import Indoor from "./Indoor/Indoor.jsx";
 import Story from "./Story/Story.jsx";
 import Gallery from "./Gallery/Gallery.jsx";
 import Events from "./Events/Events.jsx";
+import FindsUs from "./FindUs/FindUs.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Gallery />
       <Story />
       <Events />
+      <FindsUs />
     </div>
   );
 };
