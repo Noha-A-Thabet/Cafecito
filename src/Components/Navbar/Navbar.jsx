@@ -20,7 +20,7 @@ function Navbar() {
         />
       </Link>
 
-      <nav ref={navRef}>
+      <nav ref={navRef} className="xl:w-[80vw] xl:justify-end">
         <Link to="/" className="text-black -0 mx-4 cursor-pointer ">
           Home
         </Link>
